@@ -1,0 +1,175 @@
+html>
+<head> Angel Serrano Website 
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+ /* Phone*/
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+      
+      
+      }
+      
+     
+
+      /* Large Phone */
+      @media only screen and (max-width: 767px) {
+        body {
+          background-color: green;
+          }
+          h1 {
+          	color: purple;
+          }
+        }
+      }
+	  /* Tablet */
+      @media only screen and (min-width: 767px) and (max-width: 1024px) {
+        ul{
+		padding: 20px;
+	}
+	      
+	body {
+          background-color: yellow;
+        }
+      }
+	  /* Large screen */
+      @media only screen and (min-width: 2048px) {
+        body {
+          background-color: purple;
+        }
+      }
+a {text-decoration: none;}
+
+a:hover {text-decoration: underline;}
+
+.feeling-red{color: red;}
+
+
+ rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+img {max-width: 100%;}
+.navigation-bar ul {
+	background-color: Silver;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+ul a {
+	padding: 10px;
+}
+</style>
+</head>
+<body><nav>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.Angel Website {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Angel's Awesome Website </h1>
+</div>
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML =
+Math.floor(Math.random() * 11);
+</script>
+<div class="topnav">
+  <a href="#">home</a>
+  <a href="about.html">about me</a>
+  <a href="#">letter to self</a>
+   <a href="#"> contact</a>
+</div>
+	
+<main>
+
+</body>
+</main>
+<img id="myImage" onclick="changeImage()" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Rocket_League_logo.svg/1200px-Rocket_League_logo.svg.png" width="300" height="180">
+<p>Click the light bulb to turn on/off the light.</p>
+<script>
+var i = 1;
+function changeImage() {
+  var videoGameImage = document.getElementById('myImage');
+  
+  if (i==0) {
+    
+    videoGameImage.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Rocket_League_logo.svg/1200px-Rocket_League_logo.svg.png";
+    videoGameImage.width = "300";
+    i++;
+  } 
+  else if(i ==1) {
+    videoGameImage.src = "https://i.ytimg.com/vi/3iWS7ktNg9I/maxresdefault.jpg";
+	videoGameImage.width="300";
+    i++;
+  }
+ else if(i ==2) {
+    videoGameImage.src = "https://images-na.ssl-images-amazon.com/images/I/510KWdgceEL.jpg";
+	videoGameImage.width="300";
+    i=0;
+	}
+ 
+    
+}
+
+  function startTimer() {
+ 	setInterval(changeImage(), 50);
+    }
+
+</script>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1tUPFQ54gqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+<h1 class="animate__animated animate__fadeInRightBig">Angel's Awesome Website</h1>
+<h3> Home</h3> 
+<p>Born and raise in the south bronx.</p>
+<h3> About me &#128512</h3>
+<p><em> My Name is Angel Serrano, I am currently a student at bronx studio school for writers and artists ,I am in interested in / exploring the beginning of entrepreneurship/ business making 
+ I also enjoy playing videogames ,reading ,and writing and I like learning something New and something interesting is that  I am always up for a challenge</em></p>
+<h4> contact:
+<p> Angel.Serrano@bsswa.org</p>
+<p> AngelSerrano2722@gmail.com</p>
+<h3> letter to self </h5>
+<p> Dear Future Me, Hope you are doing well hopefully by now you are on your way to competing your business degree if you have not already completed it no matter what Im proud of you and how much you grown since highschool just keeping it moving forwards </p> 
+</body>
+</html>
